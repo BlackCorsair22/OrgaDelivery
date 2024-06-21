@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/productos.css">
+    <script src="https://kit.fontawesome.com/846c09e896.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header id="home">            
+    <nav class="navbar">
+        <a href="./index.html">
+            <img src="./images/Logo.png" height="100px">
+        </a>
+        <ul>
+            <a href="./quienes-somos.html">Quienes somos</a>
+        </ul>
+        <ul>
+            <a href="./productos.html">productos</a>
+        </ul>
+        <ul>
+            <a href="./contacto.html">Contacto</a>
+        </ul>
+
+        <a class="btn">Login</a>
+    </nav>
+</header>
+
+    <div class="products-container">
+        <h2>Productos Disponibles</h2>
+        <div class="products">
+            <div class="product" data-id="1" data-name="Producto 1" data-price="1500">
+                <img src="./images/brocoli.jpg" width="200px" height="200px">
+                <h3>Brocoli</h3>
+                <p>Precio: $1.500</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product" data-id="2" data-name="Producto 2" data-price="2000">
+                <img src="./images/cebolla.jpg" width="200px" height="200px">
+                <h3>Producto 2</h3>
+                <p>Precio: $2.000</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <div class="product" data-id="3" data-name="Producto 3" data-price="1000">
+                <img src="./images/espinaca.jpg" width="200px" height="200px" >
+                <h3>Producto 3</h3>
+                <p>Precio: $1.000</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <h2>Carrito de Compras</h2>
+        <div class="cart">
+            <ul id="cart-items">
+
+            </ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+            <button id="checkout">Pagar</button>
+        </div>
+    </div>
+
+    <section class="footer">
+        <footer>
+
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/niicolas_2blea/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 OrgaDelivery. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </section>
+
+
+<script src="./js/productos.js"></script>
+
+
+
+</body>
+</html>
